@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 import nbformat as nbf
-from flaml import AutoML
+from flaml.automl.automl import AutoML
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report
 
